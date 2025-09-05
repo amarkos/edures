@@ -1,31 +1,6 @@
 # Educational Resilience Profiles in Greece (PISA data)
 Code for replicating the analyses in "Discovering Profiles of Resilient Students in PISA: A Distance-Based Approach to Clustering Mixed-Type Educational Data"
 
----
-title: "Educational Resilience Clustering Analysis using Akhanli & Hennig Framework"
-subtitle: "Mixed-Type Distance Clustering for PISA Disadvantaged Students with Variable Weighting"
-author: "Your Name"
-date: "`r Sys.Date()`"
-output:
-  html_document:  
-    toc: true
-    toc_depth: 3
-    toc_float: true
-    number_sections: true
-    theme: united
-    highlight: tango
-    code_folding: show
-  pdf_document:
-    toc: true
-    number_sections: true
-params:
-  data_dir: "/Users/amarkos/PISA_Data/"
-  target_countries: "GRC"
-  disadvantaged_threshold: 0.25
-  k_range_min: 2
-  k_range_max: 8
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,
