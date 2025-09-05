@@ -870,10 +870,10 @@ perform_intervention_clustering <- function(cycle_data, cycle_name) {
           trace = FALSE,
           useallmethods = FALSE,
           useallg = FALSE,
-          nnruns = 15,
+          nnruns = 100,
           kmruns = 0,
-          fnruns = 15,
-          avenruns = 15
+          fnruns = 100,
+          avenruns = 100
         )
         
         distance_results[[dist_method_name]] <- list(
